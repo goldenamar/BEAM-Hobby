@@ -14,8 +14,10 @@ body{
     height: 90px;
     position:relative;
     display:flex;
-    background-color: white;
     align-items: center;
+    color: white;
+    margin-bottom: 170px;
+    font-weight: bold;
 }
 .logo{
     margin: 20px;
@@ -26,6 +28,7 @@ body{
 }
 .topic{
     font-size: 25px;
+    margin-right: 400px;
 }
 .nav{
     display:flex;
@@ -35,5 +38,28 @@ body{
     cursor: pointer;
 }
 .infobod{
-    display: flex;
+    position: absolute;
+    margin-left: 50px;
+}
+.infobod-top{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.infobod-mid{
+    color: white;
+    font-size: 20px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+.infobod-bottom{
+    font-size: 27.5px;
+    width: 200px;
+    height: 50px;
+    background-color: #10F1BB;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
 }
