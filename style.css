@@ -34,3 +34,6 @@ body{
     gap: 50px;
     cursor: pointer;
 }
+.infobod{
+    display: flex;
+}
