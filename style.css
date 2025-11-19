@@ -71,7 +71,7 @@ body{
 }
 .mid{
     width: 100%;
-    height: 1000px;
+    height: 1900px;
     margin-top: 688px
 }
 .mid-top{
@@ -88,5 +88,14 @@ body{
 }
 .mid-bottom{
     width: 900px;
+    margin-left: 270px;
     text-align: center;
+}
+.history{
+    width: 100%;
+    height: 1520px;
+}
+.history-pic{
+    width: 100%;
+    height: 1520px;
 }
