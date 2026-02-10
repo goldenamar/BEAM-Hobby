@@ -6,15 +6,6 @@ body{
     height: 778px;
     position: absolute;
 }
-.connect{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-a{
-    color:white;
-    text-decoration: none;
-}
 .navbar{
     width: 100%;
     height: 90px;
@@ -22,9 +13,12 @@ a{
     display:flex;
     align-items: center;
     color: white;
-    justify-content:space-between;
     margin-bottom: 170px;
     font-weight: bold;
+}
+a{
+    color:white;
+    text-decoration: none;
 }
 .logo{
     margin: 20px;
@@ -40,6 +34,7 @@ a{
 }
 .nav{
     display:flex;
+    justify-content: right;
     font-size: 25px;
     margin: 40px;
     gap: 50px;
@@ -73,61 +68,4 @@ a{
     align-items: center;
     border-radius: 50px;
     cursor: pointer;
-}
-
-
-
-.about-us{
-    width: 100%;
-    height: 380px;
-    background-color: #F0F4F5;
-}
-.mid{
-    width: 100%;
-    height: 1900px;
-    margin-top: 688px
-}
-.mid-top{
-    padding-top: 70px;
-    justify-content: center;
-    display: flex;
-    font-size: 20px;
-    font-weight: bold;
-}
-.mid-mid{
-    width: 50px;
-    height: 3px;
-    background-color: purple;
-}
-.mid-bottom{
-    width: 900px;
-    margin-left: 270px;
-    text-align: center;
-}
-.history{
-    width: 100%;
-    height: 1520px;
-    display: flex;
-    justify-content: center;
-}
-.history-pic{
-    width: 100%;
-    height: 1520px;
-    position: absolute;
-}
-.lines{
-    width: 600px;
-    height: 1400px;
-    position:relative;
-    margin: 50px;
-}
-.objects{
-    width: 540px;
-    height: 420px;
-    margin: 30px;
-}
-.object-pics{
-    width: 540px;
-    height: 420px;
-    border-radius: 50px;
 }
