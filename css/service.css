@@ -3,7 +3,7 @@ body{
 }
 .background{
     width: 100%;
-    height: 778px;
+    height: 100px;
     position: absolute;
 }
 .navbar{
@@ -13,8 +13,14 @@ body{
     display:flex;
     align-items: center;
     color: white;
+    justify-content:space-between;
     margin-bottom: 170px;
     font-weight: bold;
+}
+.connect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 a{
     color:white;
@@ -40,32 +46,5 @@ a{
     gap: 50px;
 }
 .nav-items{
-    cursor: pointer;
-}
-.infobod{
-    position: absolute;
-    margin-left: 50px;
-}
-.infobod-top{
-    color: white;
-    font-size: 35px;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-.infobod-mid{
-    color: white;
-    font-size: 20px;
-    width: 600px;
-    margin-bottom: 20px;
-}
-.button{
-    font-size: 27.5px;
-    width: 200px;
-    height: 50px;
-    background-color: #10F1BB;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
     cursor: pointer;
 }
